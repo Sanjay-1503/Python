@@ -1,0 +1,11 @@
+a = int(input("Enter a number: "))
+a1 = a
+
+for i in range(a):
+    r = ""
+    for x in range(a):
+        r += str(a1) + " "
+        a1 -= 1
+    print(r)
+    a1 = a-1
+    a -= 1
