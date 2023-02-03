@@ -1,0 +1,13 @@
+def str_int(lst):
+    a = []
+    for i in lst:
+        a.append(int(i))
+    return a
+
+list_a = input().split(",")
+list_b = input().split(",")
+a = str_int(list_a)
+b = str_int(list_b)
+ab = a+b 
+ab.sort()
+print(ab)
