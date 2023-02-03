@@ -1,0 +1,10 @@
+def count_word(n):
+    x = n.count(" ")
+    return x+1
+
+a = input().split(",")
+new_list = []
+for i in a:
+    result = count_word(i)
+    new_list.append(result)
+print(max(new_list))
